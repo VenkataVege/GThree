@@ -3,5 +3,8 @@
 Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
 <struts>
 	<package name="actions" extends="struts-default">
+		<action name="signup" class="com.g3web.actions.Signup">
+			<result name="success">/user.jsp</result>
+		</action>
 	</package>
 </struts>

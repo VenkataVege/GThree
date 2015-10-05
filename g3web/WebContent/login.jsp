@@ -6,7 +6,7 @@
 	<s:password name="password" label="PASSWORD" />
 	<s:submit value="Login" />
 </s:form>
-<s:form>
+<s:form action="signup">
  New User? <s:submit value="Sign Up" />
 </s:form>
 </html>
